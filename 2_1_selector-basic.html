@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector Basic</title>
+    <style>
+      /* 전체 선택자 */
+      /* * {
+        margin: 0;
+        padding: 0;
+      } */
+
+      /* Type 선택자 */
+      h2 {
+        color: green;
+      }
+      p {
+        color: gray;
+        font-weight: 400;
+        text-align: center;
+      }
+
+      /* Class 선택자 */
+      .red--text {
+        color: red;
+      }
+      .blue--text {
+        color: blue;
+      }
+
+      /* ID 선택자 */
+      #title {
+        font-size: 40px;
+        color: darkgray;
+        background-color: yellow;
+      }
+
+      /* 그룹 선택자 */
+      h1,
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">선택자</h1>
+    <hr />
+    <h2>1</h2>
+    <p>
+      <span class="red--text">Lorem,</span> ipsum dolor sit amet consectetur
+      adipisicing elit.<br />
+      Architecto voluptas <span class="red--text">recusandae</span> veritatis,
+      ipsam odit mollitia nesciunt assumenda eum optio facilis tempore possimus
+      expedita ea totam temporibus quos repudiandae soluta sed!
+    </p>
+
+    <h2>2</h2>
+    <p>
+      <span class="blue--text">Lorem</span> ipsum dolor, sit amet consectetur
+      adipisicing elit.<br />
+      Voluptates sunt hic ipsa voluptatem explicabo, delectus pariatur,
+      architecto perferendis fugit illum nesciunt dolore doloremque provident
+      neque deserunt nihil id culpa dignissimos?
+    </p>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      /*
+      min-width
+      max-width
+      0px ~ 400px blue
+      401px ~ 600px red
+      601px ~ yellow
+      */
+      @media (max-width: 400px) {
+        body {
+          background-color: blue;
+        }
+      }
+      @media (min-width: 401px) and (max-width: 600px) {
+        body {
+          background-color: red;
+        }
+      }
+      @media all and (min-width: 601px) {
+        body {
+          background-color: yellow;
+        }
+      }
+      @media print {
+        h1 {
+          font-size: 120px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>안녕하세요</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto impedit
+      expedita quidem delectus tempore facere, esse perferendis architecto
+      ratione molestias asperiores itaque? Praesentium aut voluptatem soluta
+      tenetur iure deserunt consectetur. Maiores ea temporibus, modi tempora
+      placeat magni, velit voluptatibus dolores harum quos sit nihil quod magnam
+      cumque aspernatur consectetur pariatur optio repellat! Quas nihil
+      distinctio deleniti maiores sint nemo natus? Quam consequatur ipsam
+      placeat iure delectus laudantium dolore deleniti quis quos doloribus
+      voluptas impedit, neque sequi ea suscipit eos, fugit quibusdam vero cum,
+      ex aut! Reprehenderit, officiis? Maxime, earum illum. Suscipit, eos culpa
+      numquam pariatur deserunt corrupti repellat labore deleniti repudiandae
+      nesciunt? Itaque sit assumenda et nesciunt delectus dolor, cumque
+      veritatis repellat repudiandae obcaecati at voluptas nobis eveniet illum
+      odio. Iure eius dignissimos consectetur dolor ratione dolores culpa totam
+      tempora, nam, fuga ipsa cupiditate? Cum molestiae maiores quo, excepturi
+      quaerat commodi, fugit enim unde repudiandae suscipit id nulla aliquid et!
+    </p>
+  </body>
+</html>
